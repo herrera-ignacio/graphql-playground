@@ -5,8 +5,15 @@
   "main": "index.js",
   "author": "Ignacio Roman Herrera",
   "license": "MIT",
+  "scripts": {
+    "start": "babel-node src/index.js"
+  },
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
   }
 }
