@@ -2,4 +2,7 @@
 
 Just playing around with GraphQL :)
 
-1. [Node & Apollo Server](node-api)
+## Node
+
+1. [Hello World](node/hello-world)
+2. [Schemas & Queries](node/schemas-queries)

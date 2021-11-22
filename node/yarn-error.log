@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init -Y
+
+PATH: 
+  C:\Program Files\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Program Files\cmder\vendor\conemu-maximus5;C:\Program Files\cmder\vendor\conemu-maximus5\ConEmu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\cygwin64\bin;C:\Program Files (x86)\Yarn\bin\;%JAVA_HOME%\bin;C:\Program Files\dotnet\;C:\Program Files\Go\bin;C:\Users\ignac\anaconda3;C:\Users\ignac\anaconda3\Library\mingw-w64\bin;C:\Users\ignac\anaconda3\Library\usr\bin;C:\Users\ignac\anaconda3\Library\bin;C:\Users\ignac\anaconda3\Scripts;C:\Users\ignac\AppData\Local\Microsoft\WindowsApps;C:\Users\ignac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ignac\AppData\Local\GitHubDesktop\bin;C:\Users\ignac\AppData\Local\Programs\Python\Python39;C:\Users\ignac\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\ignac\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.1\bin;C:\Users\ignac\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\Program Files (x86)\Notepad++;C:\Users\ignac\playgrounds\hbase-2.3.5\bin;C:\Library\Java\jdk1.8.0_291\bin;C:\Users\ignac\playgrounds\hadoop-3.2.1\bin;C:\Library\gradle-7.1.1\bin;C:\Program Files\JetBrains\GoLand 2021.2.3\bin;C:\Users\ignac\AppData\Local\JetBrains\WebStorm 2021.2.2\bin;C:\Program Files\JetBrains\CLion 2021.2.3\bin;C:\Users\ignac\go\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\cmder\vendor\bin;C:\Program Files\cmder
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:137009:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
