@@ -4,8 +4,10 @@ import { v4 as uuidv4 } from 'uuid';
 const typeDefs = `
 	type Query {
 		greeting(name: String): String!
+		skills: [String!]!
 	  book: Book!
 		me: User!
+		add(numbers: [Float!]!): Float!
 	}
 	
 	type User {
@@ -44,7 +46,16 @@ const resolvers = {
 			name: 'Nacho',
 			email: 'ignacioromanherrera@gmail.com',
 			age: null,
-		})
+		}),
+		skills() {
+			return ['Javascript', 'Node', 'React'];
+		},
+		add(parent, args) {
+			if (Array.isArray(args.numbers)) {
+				return args.numbers.reduce((acc, curr) => acc + curr, 0);
+			}
+			return 0;
+		}
 	},
 }
 

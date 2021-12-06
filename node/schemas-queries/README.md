@@ -17,7 +17,7 @@ You can try the following queries from your browser:
 query {
   greeting(name: "Nacho")
   book {
-    id
+		id
     title
     rating
     releaseYear
@@ -29,5 +29,7 @@ query {
     email
     age
   }
+  skills
+  add(numbers: [1,4,7,9])
 }
 ```
