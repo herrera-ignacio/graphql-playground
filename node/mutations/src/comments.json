@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "1",
+    "text": "Demo comment 1",
+    "author": "2a646264-252b-4a31-ab72-1900705c7ef3",
+    "post": "ea171f57-528b-4f9b-b227-1b98302d0a82"
+  },
+  {
+    "_id": "2",
+    "text": "Demo comment 2",
+    "author": "6549d38d-ec47-453f-b13f-cdf37181abed",
+    "post": "ea171f57-528b-4f9b-b227-1b98302d0a82"
+  },
+  {
+    "_id": "3",
+    "text": "Demo comment 3",
+    "author": "6549d38d-ec47-453f-b13f-cdf37181abed",
+    "post": "d1223a06-a44f-4331-a746-4bfe5efdafe0"
+  }
+]
